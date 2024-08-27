@@ -16,7 +16,14 @@ def isPhoneNumber(text):
             return False
     return True
 
-print('415-555-4242 is a phone number:')
-print(isPhoneNumber('415-555-4242'))  # Output: True
-print('Moshu Moshu is a phone number:')
-print(isPhoneNumber('Moshu Moshu'))  # Output: False
+#print('415-555-4242 is a phone number:')
+#print(isPhoneNumber('415-555-4242'))  # Output: True
+#print('Moshu Moshu is a phone number:')
+#print(isPhoneNumber('Moshu Moshu'))  # Output: False
+
+message = 'Call ne at 455-555-1011 tomorrow. 455-555-999 es mi officina.'
+for i in range(len(message)):
+    chunk = message[i:i + 12]
+    if isPhoneNumber(chunk):
+        print('phone number found: '+ chunk)
+print('Done!')
