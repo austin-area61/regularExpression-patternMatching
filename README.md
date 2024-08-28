@@ -1,0 +1,1 @@
+Knowing regular expressions can mean the difference between solving a problem in 3 steps and solving it in 3000 steps. When you are smart, you forget that the problems you solve with several keystrokes can take most people a lengthy time.
